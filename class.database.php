@@ -12,9 +12,9 @@ Class Database extends dbConfig {
 		try{
 			$dsn = 'mysql:host=' . $this->dbConfig['host'] . ';dbname=' . $this->dbConfig['dbname'];
 			$this->connection = new PDO($dsn, $this->dbConfig['username'], $this->dbConfig['password']);
-            $this->connection->query("SET NAMES utf8");
-            $this->connection->query("SET CHARACTER SET utf8");
-            $this->connection->query("SET COLLATION_CONNECTION = 'utf8_turkish_ci");
+            		$this->connection->query("SET NAMES utf8");
+        	 	$this->connection->query("SET CHARACTER SET utf8");
+            		$this->connection->query("SET COLLATION_CONNECTION = 'utf8_turkish_ci");
 			return true;
 		}catch(PDOException $error){
 			$errorMesage = 'Hata : Veritabanı bağlantısı kurulamadı !<br>Hata Mesajı =>'.$error->getMessage();
