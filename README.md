@@ -9,8 +9,7 @@ Veritabanı ayarlarını yapmak için config.php dosyasındaki ayarları kendi v
         $this->dbConfig['dbname'] = 'databasename';
 ```
 Basit kullanımıları
------------
-	insert sorgusu:
+	insert sorgusu
 		```php
 			require_once 'includes/class.database.php';
 			$db = new Database;
