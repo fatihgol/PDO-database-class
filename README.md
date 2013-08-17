@@ -9,8 +9,9 @@ Veritabanı ayarlarını yapmak için config.php dosyasındaki ayarları kendi v
         $this->dbConfig['dbname'] = 'databasename';
 ```
 Basit kullanımıları
+-------------------
 	insert sorgusu
-		```php
+```php
 			require_once 'includes/class.database.php';
 			$db = new Database;
 			$userArray = array(
@@ -23,9 +24,9 @@ Basit kullanımıları
 			);
 			$table = "users";
 			$db->insert($table, $userArray);
-		```
+```
 	update sorgusu:
-		```php
+```php
 			require_once 'includes/class.database.php';
 			$db = new Database;
 			$userArray = array(
@@ -39,23 +40,26 @@ Basit kullanımıları
 			$id=3;
 			$table = "users";
 			$db->update($table,$id, $userArray);
-		```
+```
 	Delete sorgusu:
-		```php
+```php
 			require_once 'includes/class.database.php';
 			$db = new Database;
 			$id=3;
 			$table = "users";
 			$db->update($table,$id);
-		```
+```
 	Count sorgusu:
-		```php
+```php
 			require_once 'includes/class.database.php';
 			$db = new Database;
 			$id=3;
 			$table = "users";
 			$db->count($table,$id);
-		```
+```
+---------------
+Alttaki sorgularda mevcut onların kullanımını sonra açıklayacağım
+---------------
 	Select and sorgusu:
 	Select or sorgusu:
 	Select and limit sorgusu:
