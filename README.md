@@ -64,3 +64,5 @@ Alttaki sorgularda mevcut onların kullanımını sonra açıklayacağım
 	Select or sorgusu:
 	Select and limit sorgusu:
 	Select or limit sorgusu:
+---------------
+http://fatihgol.com
