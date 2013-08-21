@@ -1,6 +1,8 @@
 PDO Database Class
 =================
-
+Dökümantasyon için
+http://fatihgol.com/pdo-database-class/
+-----------------
 Veritabanı ayarlarını yapmak için config.php dosyasındaki ayarları kendi veri tabanı ayarlarınızıyapın.
 ```php
 		$this->dbConfig['host'] = 'yourhostname';
@@ -57,8 +59,7 @@ Basit kullanımıları
 			$db->count($table);
 ```
 ---------------
-Alttaki sorgularda mevcut onların kullanımını sonra açıklayacağım
----------------
+Alttaki sorgularda mevcut onların kullanımını dökümantasyondan inceleyebilirsiniz
 	Select and sorgusu:
 	Select or sorgusu:
 	Select and limit sorgusu:
