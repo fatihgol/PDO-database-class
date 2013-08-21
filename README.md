@@ -47,7 +47,7 @@ Basit kullanımıları
 			$db = new Database;
 			$id=3;
 			$table = "users";
-			$db->update($table,$id);
+			$db->delete($table,$id);
 ```
 	Count sorgusu:
 ```php
