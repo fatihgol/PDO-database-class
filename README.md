@@ -53,9 +53,8 @@ Basit kullanımıları
 ```php
 			require_once 'includes/class.database.php';
 			$db = new Database;
-			$id=3;
 			$table = "users";
-			$db->count($table,$id);
+			$db->count($table);
 ```
 ---------------
 Alttaki sorgularda mevcut onların kullanımını sonra açıklayacağım
