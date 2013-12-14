@@ -135,8 +135,8 @@ Class Database extends dbConfig {
 	
 	public function insert($table, $array) {
 		
-		$columns = implode(", ", array_keys($array));
-		$values  = implode("',' ", array_values($array));
+		$columns = implode(",", array_keys($array));
+		$values  = implode("','", array_values($array));
 		
 		$sql = "INSERT INTO ".$table."(".$columns.") VALUES ('".$values."')";
 		$insert = $this->connection->query($sql);
